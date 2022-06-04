@@ -1,0 +1,241 @@
+/* Google Font*/
+@import
+	url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: 0.2s linear;
+	text-transform: capitalize;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: #000;
+}
+
+.btn {
+	margin-top: 2rem;
+	width: 150px;
+	padding: 12px;
+	color: #fff;
+	background: tomato;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: rgba(212, 48, 48, 0.76);
+	transition: 0.4s;
+}
+/* Header */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	padding: 1.5rem 8%;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	justify-content: space-between;
+}
+
+.header .logo {
+	font-size: 22px;
+	font-weight: bolder;
+	color: #fff;
+	padding-right: 10px;
+	margin-right: 20rem;
+}
+
+.header .logo i {
+	color: #fff;
+	padding: 0.5rem;
+}
+
+.header .navbar a {
+	font-size: 1.1rem;
+	margin: 0 1rem;
+	color: #fff;
+}
+
+.header .navbar a:hover {
+	color: #baa6cf;
+}
+
+.header .btn {
+	background: transparent;
+	color: tomato;
+	border: 1px solid tomato;
+	font-size: 12px;
+	padding: 8px;
+}
+
+/* Home Section */
+.max-width {
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+section {
+	padding: 50px 0 50px 0;
+}
+
+.home {
+	display: flex;
+}
+
+.home .max-width {
+	width: 100%;
+	display: flex;
+}
+
+.home .home-content {
+	width: 50%;
+	padding: 2rem;
+}
+
+.home h3 {
+	color: #fff;
+	margin-top: 6rem;
+	font-size: 5rem;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.home p {
+	color: rgb(194, 191, 191);
+	margin-top: 1rem;
+	font-size: 22px;
+}
+
+.home .home-image {
+	margin-top: 50px;
+	width: 50%;
+}
+
+.home .home-image img {
+	width: 90%;
+	height: 90%;
+}
+
+/* Services section */
+#services {
+	margin: 34px;
+	display: flex;
+}
+
+#services .box {
+	border: 2px solid brown;
+	padding: 34px;
+	margin: 2px 25px;
+	border-radius: 23px;
+	background-color: rgb(221, 215, 215);
+	margin-bottom: 20px;
+}
+
+#services .box img {
+	height: 160px;
+	margin: auto;
+	display: block;
+}
+
+#services .box p {
+	font-family: 'Bree Serif', serif;
+}
+/* Contact Section */
+#contact {
+	position: relative;
+}
+
+#contact::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+#contact-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 34px;
+}
+
+#contact-box form {
+	width: 40%;
+}
+
+#contact-box label {
+	color: brown;
+	font-size: 1.3rem;
+	font-family: 'Bree Serif', serif;
+}
+
+#contact-box input, #contact-box textarea {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 9px;
+	font-size: 1.1rem;
+}
+
+#contact-box button {
+	display: block;
+	margin: 10px auto;
+	padding: 6px 20px;
+	border: 2px solid white;
+	background-color: brown;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#contact-box button:hover {
+	background-color: black;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 9px 20px;
+}
+/* Utility Classes */
+.h-primary {
+	color: white; font-size : 3.8rem;
+	padding: 12px;
+	font-family: 'Bree Serif', serif;
+	font-size: 3.8rem;
+}
+
+.h-secondary {
+	color: black; font-size : 2.3rem;
+	padding: 12px;
+	font-family: 'Bree Serif', serif;
+	font-size: 2.3rem;
+}
+
+.btn {
+	padding: 6px 20px;
+	border: 2px solid white;
+	background-color: brown;
+	color: white;
+	margin: 17px 17px;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
